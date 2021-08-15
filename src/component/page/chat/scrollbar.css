@@ -1,0 +1,44 @@
+/* width */
+.chat-window::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.chat-window::-webkit-scrollbar-track {
+    background: #858585;
+}
+
+/* Handle */
+.chat-window::-webkit-scrollbar-thumb {
+    background: #353535;
+}
+
+/* Handle on hover */
+.chat-window::-webkit-scrollbar-thumb:hover {
+    background: #f00946;
+}
+
+.container-chat textarea::-webkit-scrollbar {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 7px;
+}
+
+.container-chat textarea::-webkit-scrollbar-track {
+    background: #858585;
+}
+
+.container-chat textarea::-webkit-scrollbar-thumb {
+    background: #353535;
+    border-radius: 100px;
+}
+
+.container-chat textarea::-webkit-scrollbar-thumb:hover {
+    background: #f00946;
+}
+
+@media screen and (max-width: 600px) {
+    .chat-window::-webkit-scrollbar {
+        width: 5px;
+    }
+}

@@ -1,0 +1,43 @@
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.name-field {
+    outline: none;
+    text-align: center;
+    color: #f00946;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid #1c2237;
+}
+
+.submit-btn {
+    padding: 12px;
+    font-size: large;
+    font-weight: bold;
+    color: #f7f8fa;
+    background-color: #009677;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+}
+
+.submit-btn:hover {
+    background-color: #f00946;
+}
+
+@media screen and (min-width: 1195px) {
+    .profile-form {
+        width: 70%;
+        margin: auto;
+    }
+}

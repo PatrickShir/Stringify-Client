@@ -1,0 +1,106 @@
+
+/*LIGHT THEME*/
+.contact-list.light {
+    background-color: #c3c3c3;
+}
+
+.contact-detail-wrapper.light .contact-name {
+    color: #353535;
+}
+
+.chat-window.light {
+    background-color: #f7f8fa;
+}
+
+.message-wrapper.light {
+    background-color: #f7f8fa;
+}
+
+.message-wrapper.light .identity {
+    color: #242424;
+}
+
+.message-date {
+    color: #4a4a4a;
+}
+
+.message-wrapper.light .message-content {
+    color: #242424;
+}
+
+.container-chatbox.light {
+    background-color: #f7f8fa;
+}
+
+.chatbox.light {
+    background-color: #eaeaea;
+    border: 1px solid #c3c3c3;
+}
+
+.container-chatbox.light .settings {
+    background-color: #f7f8fa;
+}
+
+.settings.light table {
+    color: #353535;
+}
+
+.settings.light .invite-field {
+    background-color: #eaeaea;
+    border: 1px solid #c3c3c3;
+    color: #353535;
+}
+
+/*DARK THEME*/
+
+.contact-list.dark {
+    background-color: #2f3136;
+}
+
+.contact-detail-wrapper.dark .contact-name {
+    color: #d2dad9;
+}
+
+.chat-window.dark {
+    background-color: #36393f;
+}
+
+.message-wrapper.dark {
+    background-color: #36393f;
+}
+
+.message-wrapper.dark .identity {
+    color: #f7f8fa;
+}
+
+.message-wrapper.dark .message-date {
+    color: #757575;
+}
+.message-wrapper.dark .message-content {
+    color: #d2dad9;
+}
+
+.container-chatbox.dark {
+    background-color: #36393f;
+}
+
+.chatbox.dark {
+    color: #d2dad9;
+    border: none;
+    background-color: #40444b;
+}
+
+.container-chatbox.dark .settings {
+    background-color: #36393f;
+}
+
+.settings.dark table {
+    color: #f7f8fa;
+}
+
+.settings.dark .invite-field {
+    background-color: #40444b;
+    border: none;
+    color: #f7f8fa;
+}
+

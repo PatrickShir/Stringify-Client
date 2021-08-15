@@ -1,0 +1,68 @@
+.footer-wrapper {
+    background-color: #1c2237;
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-wrapper img {
+    width: 90%;
+}
+
+.content-left p {
+    color: #f7f8fa;
+    font-weight: normal;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.content {
+    padding-left: 100px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: #f00946;
+}
+
+/*TODO: Ipad pro responsiveness needs fixing*/
+@media screen and (max-width: 800px){
+
+    .footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-content {
+        margin: 25px;
+    }
+
+    .footer-wrapper img {
+        padding-left: 30px;
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .content {
+        padding: 0px;
+    }
+
+}

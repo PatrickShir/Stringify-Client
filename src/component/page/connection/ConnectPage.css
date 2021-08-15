@@ -1,0 +1,58 @@
+.container-connect {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f8fa;
+}
+
+.loading-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.loading-spinner {
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.connection-feed {
+    color: #f00946;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 1095px) {
+    .loading-wrapper {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+.success-mark {
+    font-size: 200px;
+}
+
+.fail-mark {
+    font-size: 250px;
+}
+
+.status-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
